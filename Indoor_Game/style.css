@@ -1,0 +1,8 @@
+.second_Nav {
+  height: 92vh;
+}
+.form-control {
+  display: block;
+  position: absolute;
+  background-image: url("/assets/search.svg");
+}
