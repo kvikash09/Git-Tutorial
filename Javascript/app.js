@@ -57,3 +57,16 @@ document.getElementById("detail").innerHTML = Employee.name;
 
 // const result = confirm("Are you sure you want to learn full stack");
 // console.log(result);
+
+// Assignment Operator
+let coins = 10;
+let coinsPerEnemy = 5;
+document.write("Result will be:");
+document.write(
+  coins++ -
+    ++coinsPerEnemy +
+    ++coins -
+    ++coinsPerEnemy +
+    coins-- -
+    (((--coinsPerEnemy * ++coins) / ++coinsPerEnemy) % coins--)
+);
