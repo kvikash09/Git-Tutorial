@@ -135,6 +135,81 @@ console.log(user1.isEligible);
 
 console.log(user1.age >= 18 && user1.nationality == "Indian" ? true : false);
 
+// BMI
+
+let person = {
+  name: "Sandeep",
+  height: 5.8,
+  weight: 70,
+};
+console.log(person.height >= 6 && person.weight >= 65 ? "Fit" : "Not Fit");
+
+// Nested If-Else
+let passingMark = 400;
+let marksObtained = 650;
+if (marksObtained > 600) {
+  console.log("Passed with First Class Distinction");
+  if (marksObtained <= passingMark) {
+    console.log("Failed in Exam");
+  } else {
+    console.log("He passed with Grace Mark");
+  }
+} else {
+  console.log("Passed the Exam with First Class");
+}
+
+// Switch Statement
+let mark = 60;
+switch (mark) {
+  case 90:
+    console.log("Excellent");
+    break;
+  case 80:
+    console.log("Very Good");
+    break;
+  case 70:
+    console.log("Good Job");
+    break;
+  case 60:
+    console.log("Fair");
+    break;
+  case 50:
+    console.log("Good");
+    break;
+  case 40:
+    console.log("Not so Good");
+    break;
+  default:
+    console.log("Failed");
+}
+
+let employee = {
+  name: "Vikash",
+  desgination: "Software Engineer",
+  short_des: "SSE",
+  salary: 300000,
+};
+switch (employee.short_des) {
+  case "SE":
+    employee.salary *= 1.5;
+    console.log(employee.name + " new salary will be " + employee.salary);
+    break;
+  case "SSE":
+    employee.salary *= 1.4;
+    console.log(employee.name + " new salary will be " + employee.salary);
+    break;
+  case "TL":
+    employee.salary *= 1.3;
+    console.log(employee.name + " new salary will be " + employee.salary);
+    break;
+  case "MGR":
+    employee.salary *= 1.2;
+    console.log(employee.name + " new salary will be " + employee.salary);
+    break;
+  default:
+    console.log("No Hike");
+}
+
 // Arrays Method
 
 // toString()
