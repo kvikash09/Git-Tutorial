@@ -133,6 +133,8 @@ if (user1.age >= 18 && user1.nationality == "Indian") {
 }
 console.log(user1.isEligible);
 
+console.log(user1.age >= 18 && user1.nationality == "Indian" ? true : false);
+
 // Arrays Method
 
 // toString()
